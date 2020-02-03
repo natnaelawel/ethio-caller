@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_font_size_entries">
+        <item>Tiny</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Big</item>
+    </string-array>
+    <string-array name="pref_font_size_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="pref_themes_entries">
+        <item>Theme 1</item>
+        <item>Theme 2</item>
+        <item>Theme 3</item>
+        <item>Theme 4</item>
+        <item>Theme 5</item>
+        <item>Theme 6</item>
+    </string-array>
+    <string-array name="pref_themes_values">
+        <item>Theme 1</item>
+        <item>Theme 2</item>
+        <item>Theme 3</item>
+        <item>Theme 4</item>
+        <item>Theme 5</item>
+        <item>Theme 6</item>
+    </string-array>
+    <string-array name="pref_sound_mode_entries">
+        <item>Sound</item>
+        <item>Vibrate</item>
+        <item>Mute</item>
+    </string-array>
+    <string-array name="pref_sound_mode_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+
+    </string-array>
+    </resources>

@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Ethio Caller</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_short_emergency">ShortEmergencyActivity</string>
+    <string name="title_activity_create_new_contact">CreateNewContactActivity</string>
+    <string name="title_activity_balance_related">BalanceRelatedActivity</string>
+    <string name="first_name">first name</string>
+    <string name="phone_number">phone number</string>
+    <string name="search_hint">search</string>
+
+
+    ///////////////////////////////////////////////////
+
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="default_gallery_storage">My Videos</string>
+    <string name="title_auto_upload">Auto upload</string>
+    <string name="summary_upload_over_wifi">Upload the videos when wifi is available</string>
+    <string name="title_font_size">Font</string>
+    <string name="summary_font_size">Specify Font Size</string>
+    <string name="pref_title_notifications">Notifications</string>
+    <string name="summary_choose_ringtone">Choose notification sound</string>
+    <string name="pref_header_about">About</string>
+    <string name="summary_about">We are a team of like-minded people, specialized in development of Android App Development creating new trends across the app space. Glad to Help in anyway!</string>
+    <string name="app_version">Version</string>
+    <string name="summary_support">Got any queries? We are happy to help!</string>
+    <string name="title_send_feedback">Send Feedback</string>
+    <string name="title_faq">FAQ</string>
+    <string name="summary_faq">View frequently asked questions</string>
+    <string name="url_faq">https://www.androidhive.info/privacy-policy/</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="url_privacy">https://www.androidhive.info/privacy-policy/</string>
+    <string name="title_terms">Terms &amp; Conditions</string>
+    <string name="url_terms">https://www.androidhive.info/terms-of-service/</string>
+    <string name="title_version">Version</string>
+    <string name="choose_email_client">Choose email client</string>
+    <string name="title_gallery_storage">Default Storage</string>
+    <string name="title_new_notification_sound">New message notification</string>
+    <string name="title_vibrate">Vibrate</string>
+    <string name="summary_vibrate">Vibrate on new notification</string>
+    <string name="key_upload_over_wifi">key_upload_over_wifi</string>
+    <string name="key_gallery_name">key_gallery_name</string>
+    <string name="key_upload_quality">key_upload_quality</string>
+    <string name="notifications_new_message">notifications_new_message</string>
+    <string name="key_notifications_new_message_ringtone">key_notifications_new_message_ringtone</string>
+    <string name="key_vibrate_when_ringing">key_vibrate_when_ringing</string>
+    <string name="key_send_feedback">key_send_feedback</string>
+    <string name="key_fonts">key_fonts</string>
+    <string name="key_themes">key_themes</string>
+    <string name="key_sound_mode">key_sound_mode</string>
+    <string name="summary_fonts">Choose Font Size</string>
+    <string name="summary_themes">Choose your theme</string>
+    <string name="summary_sound_mode">Choose Sound Mode</string>
+    <string name="title_sound_mode">Sound Mode</string>
+    <string name="title_themes">Theme</string>
+    <string name="title_fonts">Font</string>
+    <string name="dialog_title_themes">dialog_title_themes</string>
+    <string name="dialog_title_fonts">dialog_title_fonts</string>
+    <string name="dialog_title_sound_mode">dialog_title_sound_mode</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_splash">Ethio Caller</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="email">natnael.awel@gmail.com</string>
+</resources>

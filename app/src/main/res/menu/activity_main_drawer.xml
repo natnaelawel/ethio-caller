@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/gebetaFragment"
+            android:icon="@drawable/ic_gebeta_photo"
+            android:title="Gebeta" />
+        <item
+            android:id="@+id/rechargeFragment"
+            android:icon="@drawable/ic_recharge_money"
+            android:title="Recharge Balance" />
+        <item
+            android:id="@+id/checkbalance"
+            android:icon="@drawable/ic_check_balance"
+            android:title="Check Balance" />
+        <item
+            android:id="@+id/borrowFragment"
+            android:icon="@drawable/ic_borrow"
+            android:title="Borrow AirTime" />
+        <item
+            android:id="@+id/transferFragment"
+            android:icon="@drawable/ic_tansfer_money"
+            android:title="Transfer Balance" />
+    </group>
+
+
+    <item android:title="Numbers">
+        <menu>
+            <item
+                android:id="@+id/Emergencynum"
+                android:icon="@drawable/ic_short_emergecy"
+                android:title="Emergency and Short" />
+            <item
+                android:id="@+id/favnum"
+                android:icon="@drawable/ic_star"
+                android:title="Favourite" />
+            <item
+                android:id="@+id/blacklisted"
+                android:icon="@drawable/ic_x_button_remove"
+                android:title="Blacklisted" />
+        </menu>
+    </item>
+    <item android:title="Other"
+        >
+        <menu>
+            <item
+                android:id="@+id/change_theme"
+                android:icon="@drawable/ic_change_theme"
+                android:title="Change Theme" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help_icon"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_exit_icon"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>

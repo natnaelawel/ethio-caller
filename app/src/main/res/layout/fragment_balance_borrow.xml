@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".BalanceBorrowFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Borrow Balance"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:text="Amount"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <!--<com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner-->
+            <!--android:id="@+id/amount_spinner"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="Data You Need"-->
+            <!--android:textColorHint="#05ab9a"-->
+            <!--android:textSize="20dp"-->
+            <!--app:met_floatingLabel="normal" />-->
+
+
+                <Spinner
+                    android:id="@+id/Borrow_amount_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="10dp"
+                    android:hint="Package Period"
+                    android:outlineAmbientShadowColor="@color/magenta"
+                    android:outlineProvider="background"
+                    android:popupElevation="50dp"
+                    android:textAlignment="center"
+                    android:gravity="end"
+                    android:layout_gravity="end"
+                    android:textColorHint="#05ab9a"
+                    android:textSize="20sp"
+                     />
+
+
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <Button
+        android:id="@+id/borrowbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/magenta"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Borrow"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+</FrameLayout>

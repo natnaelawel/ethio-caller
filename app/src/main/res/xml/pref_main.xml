@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Preferences">
+
+        <ListPreference
+            android:dialogTitle="@string/dialog_title_fonts"
+            android:entries="@array/pref_font_size_entries"
+            android:entryValues="@array/pref_font_size_entries"
+            android:key="@string/key_fonts"
+            android:summary="@string/summary_fonts"
+            android:title="@string/title_fonts"
+            android:defaultValue="Normal"
+
+            />
+        <ListPreference
+            android:dialogTitle="@string/dialog_title_themes"
+            android:entries="@array/pref_themes_entries"
+            android:entryValues="@array/pref_themes_values"
+            android:key="@string/key_themes"
+            android:summary="@string/summary_themes"
+            android:title="@string/title_themes"
+            android:defaultValue="Theme 1"
+            />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Sounds">
+
+        <ListPreference
+        android:dialogTitle="@string/dialog_title_sound_mode"
+        android:entries="@array/pref_sound_mode_entries"
+        android:entryValues="@array/pref_sound_mode_entries"
+        android:key="@string/key_sound_mode"
+        android:summary="@string/summary_sound_mode"
+        android:title="@string/title_sound_mode"
+        android:defaultValue="Sound"
+            />
+        <SwitchPreference
+            android:defaultValue="true"
+
+            android:key="@string/key_vibrate_when_ringing"
+            android:summary="Vibrate When Ringing "
+            android:title="Vibration " />
+
+        <RingtonePreference
+            android:defaultValue="content://settings/system/"
+            android:key="key_ringtone"
+            android:ringtoneType="ringtone"
+            android:title="@string/pref_title_ringtone" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_header_about">
+
+        <Preference
+            android:selectable="false"
+            android:summary="I am Developed this app to
+            simplify in getting of all services of telecoms in one place with easy way"/>
+
+        <Preference
+            android:summary="1.0"
+            android:title="@string/app_version" />
+
+        <Preference
+            android:key="@string/key_send_feedback"
+            android:summary="@string/summary_support"
+            android:title="@string/title_send_feedback" />
+
+        <!-- preference opens url in browser -->
+        <Preference
+            android:summary="@string/summary_faq"
+            android:title="@string/title_faq">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/url_faq" />
+        </Preference>
+
+        <Preference android:title="@string/privacy_policy">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/url_privacy" />
+        </Preference>
+
+        <Preference android:title="@string/title_terms">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/url_terms" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

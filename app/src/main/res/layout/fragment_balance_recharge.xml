@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".BalanceRechargeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/rechargeBytab"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:tabTextColor="?colorAccent"
+        app:tabSelectedTextColor="@color/colorAccent"
+        android:backgroundTint="?themePrimary"
+        >
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="via Number"/>
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Via Camera"/>
+    </android.support.design.widget.TabLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="start"
+        android:layout_marginTop="56dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/viaNumber"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="10dp"
+            tools:visibility="gone">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:text="Recharge via Number"
+                    android:textAlignment="center"
+                    android:textStyle="bold|italic"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="20sp"
+                    />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter the Hidden Number" />
+                </android.support.design.widget.TextInputLayout>
+                <Button
+                    android:id="@+id/rechargebtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="reCharge"
+                    android:elevation="10dp"
+                    android:background="@color/magenta"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:layout_marginBottom="50dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic"
+                    android:layout_gravity="center"
+                    />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/viaCamera"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="4dp"
+            app:cardCornerRadius="10dp"
+            tools:visibility="visible">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="Choose "
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <Button
+                    android:id="@+id/rechargebyCamera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Camera"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:ellipsize="end"
+                    android:drawableRight="@drawable/ic_add_photo_camera"
+                    android:drawableEnd="@drawable/ic_add_photo_camera" />
+                <Button
+                    android:id="@+id/rechargebyGallery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gallery"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:ellipsize="end"
+                    android:drawableRight="@drawable/ic_add_photo_gallery"
+                    android:drawableEnd="@drawable/ic_add_photo_gallery"/>
+
+
+                <ImageView
+                    android:id="@+id/DisplayRechargeImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+               <!--<Button-->
+                   <!--android:id="@+id/rechargecamerabtn"-->
+                   <!--android:layout_width="wrap_content"-->
+                   <!--android:layout_height="wrap_content"-->
+                   <!--android:text="reCharge"-->
+                   <!--android:elevation="10dp"-->
+                   <!--android:background="@color/magenta"-->
+                   <!--android:gravity="center"-->
+                   <!--android:paddingLeft="20dp"-->
+                   <!--android:paddingRight="20dp"-->
+                   <!--android:textColor="@android:color/white"-->
+                   <!--android:textSize="20dp"-->
+                   <!--android:textStyle="bold|italic"-->
+                   <!--android:layout_gravity="center"-->
+                   <!--android:layout_marginBottom="50dp"-->
+                   <!--/>-->
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</FrameLayout>

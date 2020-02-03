@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/framelayout"
+    tools:context=".ContactLogs">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/log_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:fastScrollEnabled="true"
+        app:fastScrollHorizontalThumbDrawable="@drawable/thumb_drawable"
+        app:fastScrollHorizontalTrackDrawable="@drawable/line_drawable"
+        app:fastScrollVerticalThumbDrawable="@drawable/thumb_drawable"
+        app:fastScrollVerticalTrackDrawable="@drawable/line_drawable">
+    </android.support.v7.widget.RecyclerView>
+
+    <!--<com.futuremind.recyclerviewfastscroll.FastScroller-->
+        <!--android:id="@+id/fastscroll"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:orientation="vertical" />-->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/dial_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="@dimen/fab_margin"
+        android:backgroundTint="?themePrimary"
+        app:fabSize="auto"
+        android:src="@drawable/ic_dialpad" />
+
+
+
+</FrameLayout>
